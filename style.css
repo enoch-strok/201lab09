@@ -1,0 +1,91 @@
+body {
+    text-align: center;
+    color: rgb(122, 120, 120);
+    
+}
+
+
+nav {
+    
+    background-color: grey;
+    height: 90px;
+    /* padding: 10px; */
+}
+
+/* #navBarMarginSection {
+    margin: 20px auto 20px auto;
+    border: solid black;
+    height: 90px;
+    width: 960px;
+} */
+
+#logo {
+
+    background-color: black;
+    width: 200px;
+    height: 70px;
+    /* float: left; */
+    display: inline-block;
+    /* margin-top: 10px; */
+    margin: 10px 0px 10px 0px;
+    line-height: 67px;
+
+}
+
+.navItem {
+    
+    /* margin-top: 10px; */
+    width: 185px;
+    height: 70px;
+    background-color: rgb(100, 96, 96);
+    /* float: left; */
+    display: inline-block;
+    margin: 10px 0px 10px 0px;
+    line-height: 67px;
+}
+
+#topItem {
+    width: 960px;
+    height: 450px;
+    background-color: black;
+    margin: 30px auto 30px auto;
+    line-height: 450px;
+    font-size: 50px;
+}
+
+.subItemsSection {
+    width: 960px;
+    margin: 30px auto 30px auto;
+    /* border: solid black; */
+}
+
+#subItem1 {
+    width: 300px;
+    height: 375px;
+    background-color: black;
+    display: inline-block;
+    margin: 5px 0px 5px 0px;
+    line-height: 375px;
+    font-size: 30px;
+}
+
+#subItem2 {
+    width: 300px;
+    height: 375px;
+    background-color: black;
+    display: inline-block;
+    margin: 5px 25px 5px 25px;
+    text-align: center;
+    line-height: 375px;
+    font-size: 30px;
+}
+
+#subItem3 {
+    width: 300px;
+    height: 375px;
+    background-color: black;
+    display: inline-block;
+    margin: 5px 0px 5px 0px;
+    line-height: 375px;
+    font-size: 30px;
+}
