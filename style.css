@@ -125,6 +125,8 @@ nav {
     overflow: scroll;
 }
 
+
+/* Copied from W3 School */
   .button {
     font: black;
     background: grey;
@@ -143,3 +145,4 @@ nav {
     color: white;
     text-decoration: none;
   }
+/* End Copy */
