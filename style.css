@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    color: rgb(122, 120, 120);
+    color: rgb(173, 170, 170);
     
 }
 
@@ -13,7 +13,7 @@ nav {
 }
 
 /* #navBarMarginSection {
-    margin: 20px auto 20px auto;
+    margin: auto
     border: solid black;
     height: 90px;
     width: 960px;
@@ -89,3 +89,57 @@ nav {
     line-height: 375px;
     font-size: 30px;
 }
+
+
+#bottomSection {
+    width: 960px;
+    height: 400px;
+    /* border: solid black; */
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#featuredSection {
+    width: 480px;
+    height: 400px;
+    background-color: black;
+    /* display: inline-block; */
+    /* margin: 5px 0px 5px 0px; */
+    /* margin-right: 50%; */
+    line-height: 375px;
+    font-size: 30px;
+    /* display: inline-block; */
+    float: left;
+}
+
+#rightTextSection {
+    width: 450px;
+    height: 360px;
+    background-color: black;
+    display: inline-block;
+    /* margin: 5px 0px 5px 0px; */
+    /* margin-left: 50%; */
+    font-size: 15px;
+    /* display: inline-block; */
+    float: right;
+    overflow: scroll;
+}
+
+  .button {
+    font: black;
+    background: grey;
+    line-height: 35px;
+    height: 40px;
+    width: 150px;
+    margin-right: 300px;
+    float: right;
+    -webkit-transition-duration: 0.350s; /* Safari */
+    transition-duration: 0.350s;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    text-decoration: none;
+  }
